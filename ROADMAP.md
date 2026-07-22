@@ -1,0 +1,9 @@
+- [ ] URL Input
+- [ ] URL Validation
+- [ ] HTTP Request
+- [ ] Status Code
+- [ ] Response Time
+- [ ] HTTP Headers
+- [ ] HTML Title
+- [ ] IP Address
+- [ ] JSON Export
