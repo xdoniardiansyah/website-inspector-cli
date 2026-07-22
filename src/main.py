@@ -1,11 +1,14 @@
+import requests
+
 print("=========================")
 print("Website Inspector CLI")
 print("=========================\n")
 
-clean_input = input("Masukkan URL:\n").strip()
+target_url = input("Masukkan URL:\n").strip()
 print()
 
-if clean_input == "":
+if target_url == "":
     print(f"URL tidak boleh kosong.")
 else:
-    print(f"URL :\n{clean_input}")
+    response = requests.get(target_url)
+    print(f"Status Code :\n{response.status_code}")
